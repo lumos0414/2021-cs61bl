@@ -9,8 +9,9 @@ public class LeapYear {
      * @source CS 61BL Lab 1
      */
     public static boolean isLeapYear(int year) {
-        // TODO: Fill in this method.
-    }
+        // TODO: Fill in this method.   //和/*和*/ 都是注释
+//        && and作用 || or作用
+        return year % 400 == 0 || year % 4 == 0 && year % 100 != 0;    }
 
     /** Calls isLeapYear to print correct statement. */
     private static void checkLeapYear(int year) {
